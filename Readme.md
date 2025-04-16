@@ -2,26 +2,27 @@
 
 An interactive web app powered by Meta's **MusicGen** model that lets you generate original music based on **genre, mood, tempo**, and **duration**. No musical skills needed — just your creativity!
 
-![screenshot](https://imgur.com/your-app-screenshot.png) <!-- Optional if you have one -->
+To Try out the model [click](https://huggingface.co/spaces/spcool/AI-Music-Composer)
 
 ---
 
 ## 🚀 Features
 
-- 🎶 **Generate AI music** from scratch based on your inputs
-- ✨ Choose genre, mood, and tempo
-- 🕒 Select duration (5–30 seconds)
-- 📥 Download generated music in WAV format
-- ⚡ GPU support for faster generation (if available)
+- 🎶 Generate AI music from scratch using your text inputs
+- 🧠 Powered by Meta's [MusicGen](https://github.com/facebookresearch/audiocraft)
+- 🎨 Choose Genre, Mood, Tempo
+- ⏱ Select Duration (5–30 seconds)
+- 💾 Download generated music in `.wav` format
+- ⚡ GPU support for fast generation
 
 ---
 
 ## 🛠 Tech Stack
 
-- [Streamlit](https://streamlit.io/) - Web interface
-- [TorchAudio](https://pytorch.org/audio/) - Audio I/O
-- [PyTorch](https://pytorch.org/) - Deep learning framework
-- [MusicGen (Meta)](https://github.com/facebookresearch/audiocraft) - Pretrained generative music model
+- [Streamlit](https://streamlit.io/) - For building the UI
+- [TorchAudio](https://pytorch.org/audio/) - For audio I/O
+- [PyTorch](https://pytorch.org/) - For model execution
+- [Meta’s MusicGen](https://github.com/facebookresearch/audiocraft) - Pretrained generative music model
 
 ---
 
