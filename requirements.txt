@@ -1,0 +1,3 @@
+streamlit
+torchaudio
+git+https://github.com/facebookresearch/audiocraft.git
